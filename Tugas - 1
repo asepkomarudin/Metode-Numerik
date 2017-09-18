@@ -47,7 +47,7 @@
 					 scanf("%d",&y); 
 					 hasil=tambah(x,y);
 					 printf("Hasil dari X+Y adalah %d",hasil);
-					 printf("\n");
+					 printf("\n\n\n\n");
 					 break;
 					 
 			case 2 : system("cls");
@@ -57,7 +57,7 @@
 				     scanf("%d",&y); 
 					 hasil=kurang(x,y);
 					 printf("Hasil X-Y adalah %d",hasil);
-					 printf("\n");
+					 printf("\n\n\n\n");
 					 break;
 					 
 			case 3 : system("cls");
@@ -67,17 +67,18 @@
 				     scanf("%d",&y); 
 					 hasil=kali(x,y);
 					 printf("Hasil x*y adalah %d",hasil);
-					 printf("\n");
+					 printf("\n\n\n\n");
 					 break;
 					 
 			case 4 : system("cls");
-					 float x1,y1,hasil1;
+					 float x,y,hasil;
    					 printf("Masukan nilai x: ");
-   					 scanf("%f",&x1);
+   					 scanf("%f",&x);
    					 printf("Masukan nilai y: ");
-   					 scanf("%f",&y1);
-   					 hasil = pow(x1,y1);
-   					 printf("Hasil x^y adalah %f",hasil);  				 
+   					 scanf("%f",&y);
+   					 hasil = pow(x,y);
+   					 printf("Hasil x^y adalah %f",hasil); 
+					 printf("\n\n\n"); 				 
 					 break;
 					 
 			case 5 : system("cls");
@@ -87,6 +88,7 @@
 					 scanf("%d",&y);
 					 fungsi(x,y);
 					 break;
+					 
 			default : printf("Pilihan anda tidak terdaftar dalam menu");
 			
 		}
